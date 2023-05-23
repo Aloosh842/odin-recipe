@@ -1,0 +1,102 @@
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+	}
+
+div.header{
+    font-family:"Copperplate";
+    color: white;
+    text-align: center;
+    background-color: brown;
+    font-size: 32px;
+    padding: 15px;
+    border-radius: 70px;
+}
+
+.animation_border{
+	animation: myAnim 2s ease 0s 1 normal forwards;
+
+	border-radius: 50px;
+    background: #a15e5e;
+    box-shadow:  -30px -30px 60px #895050, 30px 30px 60px #b96c6c;
+}
+
+<!-- -->
+
+#img1{
+	cursor: pointer;
+
+    position: relative;
+    left: 250px;
+    border: 20px;
+}
+
+#img2{
+    cursor: pointer;
+
+    position: relative;
+    left: 250px;
+}
+
+#img3{
+	cursor: pointer;
+
+    position: relative;
+    left: 250px;
+}
+
+<!-- -->
+
+.border{
+	background-color: red;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+
+	cursor: pointer;
+	position: relative;
+	left: 585px;
+	
+}
+
+#link1{
+	cursor: pointer;
+	position: relative;
+	left: 355px;
+
+}
+
+#link2{
+	cursor: pointer;
+	position: relative;
+	left: 565px;
+}
+
+#link3{
+	cursor: pointer;
+	position: relative;
+	left: 800px;
+}

@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-    <h1>Odin Recipe</h1>
-    <img src="images/lasagna.jpg" alt = "homepage lasagna image" width="300" height="250">   
-    <img src="images/egg.jpg" alt = "homepage egg image" width="300" height="250">
-    <img src="images/pasta.jpg" alt="homepage pasta image" width="300" height="250">
+<body style="background-color: rgb(255, 255, 220);">
+
+    <div class="header">
+        <h1>Odin Recipe</h1>
+        <hr>
+    </div>
+
+    <a href="../recipes/lasagna.html" ><img class="animation_border" id="img1" src="images/lasagna.jpg" alt = "homepage lasagna image" width="300" height="250"></a> 
+    <a href="../recipes/eggs.html" ><img class="animation_border" id="img2" src="images/egg.jpg" alt = "homepage egg image" width="300" height="250" target="_blank"></a>
+    <a href="../recipes/pasta.html" ><img class="animation_border" id="img3" src="images/pasta.jpg" alt="homepage pasta image" width="300" height="250"></a>
     
     <p>
-        Recipe pages
+    <button class="border" id="link1"> <a href="./recipes/lasagna.html" style="color: white;">Lasagna</a> </li> </button>
+    <button class="border" id="link2"> <a href="./recipes/eggs.html" style="color: white;">Egg</a> </li> </button>
+    <button class="border" id="link3"> <a href="./recipes/pasta.html" style="color: white;">Pasta</a> </li> </button>
     </p>
-
-    <ul>
-        <li> <button> <a href="./recipes/lasagna.html">Lasagna</a> </li> </button>
-        <li> <button> <a href="./recipes/eggs.html">Egg</a> </li> </button>
-        <li> <button> <a href="./recipes/pasta.html">Pasta</a> </li> </button>
-    </ul>
 
 </body>
 </html>
